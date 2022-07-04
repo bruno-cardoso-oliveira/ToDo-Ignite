@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+    html {
+        font-size: 87.5%; /* Como os valores foram utilizados com unidade relativa (rem) ao diminuir o font-size do html, automaticamente tudo se ajusta baseado nesse valor -> usasse % para não ter um px fixo de tamanho setado, assim permitindo com que o usuário utilize o tamanho de fonte setado no celular pessoal dele */
+    }
+}
+
+html, body, #root {height: 100%;}
+
+.wrapper {
+
+  width: 100%;
+}
+
+.header {
+  background: var(--gray-700);
+  display: flex;
+  justify-content: center;
+  padding: 3.25rem 0;
+}
